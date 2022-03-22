@@ -1,0 +1,147 @@
+body
+{
+    background-color: #262936;
+}
+.nav-p
+{
+    font-size: 10px;
+    font-weight: 200;
+}
+.nav-item a
+{
+    border: 2px solid transparent;
+    padding: 5px 25px;
+    border-radius: 30px;
+}
+.nav-item:hover a
+{
+    color: #009ad8 !important;
+    border-color: #009ad8;
+}
+.inputLocation
+{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    border-radius: 20px;
+    background-color: #1e202b;
+    border: none;
+}
+.mydiv
+{
+    background-color: #1e202b !important;
+
+}
+.col-md-4 
+{
+	margin:0!important;
+	padding:0!important;
+}
+.label-position
+{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    z-index: 999;
+}
+.myBtn
+{
+    border-radius: 20px;
+    position: absolute;
+    right: 15.5%;
+    top: 25.5%;
+    width: 10%;
+    background-color: #009ad8;
+}
+.my-img
+{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+.header
+{
+    background: #262936;
+    padding: 10px;
+    font-weight: 400;
+}
+.headerr
+{
+    background: #262936;
+    padding: 6px;
+    font-weight: 400;
+}
+.div1
+{
+    background: #262936;
+}
+.footer
+{
+    background-color: #323544;
+}
+.header1
+{
+    background-color: #323544;
+}
+.header11
+{
+    padding: 26px;
+}
+.header-p
+{
+    color: white;
+    font-size: 14px;
+}
+.degree-size
+{
+    font-size: 90px;
+}
+.img-width
+{
+    width: 15%;
+    background-size: cover;
+}
+
+.container
+{
+    position: relative;
+    top: -20%;
+}
+.footerinput
+{
+    border-radius: 20px;
+    background-color: #1e202b;
+    border: none;
+}
+.footerbtn
+{
+    position: absolute;
+    left: 41%;
+    top: 53px;
+    border-radius: 20px;
+    background-color: #009ad8;
+}
+.icon-social
+{
+    width: 50px;
+    height: 50px;
+    background-color:#1e202b ;
+    color: #009ad8;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.icon-social:hover 
+{
+    background-color: #009ad8;
+    color: white;
+}
+.myicon
+{
+    padding-left: 10px;
+}
+.p-footer
+{
+    color: #bfc1c8;
+}

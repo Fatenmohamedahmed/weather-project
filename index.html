@@ -1,0 +1,145 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark py-4">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" class="w-100"></a>
+      <h1 class="navbar-brand fw-bold text-white" href="#">Weather <br>
+        <p class="my-2 nav-p">agline goes here</p>
+      </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active text-info mx-3  px-4 border border-info border-2" aria-current="page"
+              href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mx-3" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--------------------------------------->
+  <div>
+    <img src="image/banner.png" alt="" class="position-relative my-img">
+    <input type="text" name="location" id="location" placeholder="Find Your Location"class="form-control w-75 inputLocation py-3">
+    <button class="btn  px-5 py-2 text-white myBtn form-control " id="click-btn">Find</button>
+    <label for="" id="message" class="text-white label-position"></label>
+  </div>
+  <!-------------------------------------------->
+  <div class="container py-4 w-75 mx-auto">
+    <div class="row">
+      <div class="col-md-4 div1">
+        <div class="weather-info">
+          <div class="d-flex justify-content-between align-items-center header py-2">
+            <h6 class="header-p" id="my-header"></h6>
+            <h6 class="header-p" id="header-p"></h6>
+          </div>
+          <div class="header1">
+            <p class="pt-4 ps-4 text-white" id="class-name"></p>
+            
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="degree-size fw-bolder text-white" id="degree"></p>
+                </div>
+                <div class="col-md-4 p-3">
+                  <img src="" alt="" class="w-100" id="img-src">
+                </div>
+              </div>
+            </div>
+
+            <p class="text-info p-3" id="text-info"></p>
+            <div class="pb-5">
+              <img src="image/icon-umberella.png" alt="" class="ps-3">
+              <span class="text-white">20%</span>
+              <img src="image/icon-wind.png" alt="" class="ps-4">
+              <span class="text-white">18km/hour</span>
+              <img src="image/icon-compass.png" alt="" class="ps-4">
+              <span class="text-white">East</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mydiv">
+        <div class="first-day">
+          <div>
+            <h6 class="text-center header text-white" id="next-day"></h6>
+          </div>
+          <div class="d-flex justify-content-center align-items-center flex-column mydiv  header11">
+            <img src="image/302.png" id="next-img-src" alt="">
+            <p class="text-white fa-2x" id="maxTempNext"></p>
+            <p class="text-white" id="minTempNext"></p>
+            <p class="text-info " id="nextDayair"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 div1">
+        <div class="first-day">
+          <div>
+            <h6 class="text-center headerr text-white" id="third-day"></h6>
+          </div>
+          <div class="d-flex justify-content-center align-items-center flex-column header11  header1">
+            <img src="image/302.png" id="third-img-src" alt="">
+            <p class="text-white fa-2x" id="maxTempThird"></p>
+            <p class="text-white" id="minTempThird"></p>
+            <p class="text-info" id="thirdDayair"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------------->
+
+  <div class="footer py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="footer-input">
+            <input type="text" class="form-control w-75 footerinput p-3 position-relative" placeholder="Enter Yor Email To Subscribe ...">
+            <button class="btn  text-white py-2 px-3 footerbtn">Subscribe</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class=" d-flex justify-content-start">
+            <i class="fab fa-facebook-f px-3 py-2 icon-social mx-1 fa-2x  "></i>
+            <i class="fab fa-instagram  myicon py-2 icon-social mx-1 fa-2x "></i>
+            <i class="fab fa-twitter  px-2 py-2 icon-social mx-1 fa-2x "></i>
+            <i class="fab fa-linkedin  myicon py-2 icon-social mx-1 fa-2x "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="p-footer pt-3 px-5 mx-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </div>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
